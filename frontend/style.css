@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+li button:last-child {
+  background-color: #f44336;
+}
+
+li button:last-child:hover {
+  background-color: #da190b;
+}
+
+#searchInput {
+  width: 200px;
+}
+
+.search-results {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.search-result {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.search-result h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.search-result p {
+  margin: 0.25rem 0;
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.del-btn-info{
+    background-color: #f44336;
+}
+
+.del-btn-info:hover {
+  background-color: #da190b;
+}
+
+#employeeInfo {
+  margin-top: 1rem;
+}
