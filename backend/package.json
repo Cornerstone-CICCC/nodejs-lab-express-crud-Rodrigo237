@@ -1,0 +1,39 @@
+{
+  "name": "nodejs-lab-express-crud-rodrigo237",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3k8S7spg)\r # NodeJS Lab Day 1 - Full Stack Express BREAD App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "concurrently \"tsc --watch\" \"nodemon --watch dist dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/nodejs-lab-express-crud-Rodrigo237.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/nodejs-lab-express-crud-Rodrigo237/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/nodejs-lab-express-crud-Rodrigo237#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.9.2",
+    "@types/uuid": "^10.0.0",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "uuid": "^13.0.0"
+  }
+}

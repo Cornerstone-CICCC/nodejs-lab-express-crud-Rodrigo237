@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Employee Manager</h1>
+
+  <section>
+    <h2>Add Employee</h2>
+    <form id="addForm">
+      <input type="text" id="addFirstname" placeholder="First Name" required />
+      <input type="text" id="addLastname" placeholder="Last Name" required />
+      <input type="number" id="addAge" placeholder="Age" required />
+      <select id="addMarried">
+        <option value="true">Married</option>
+        <option value="false">Single</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Edit Employee</h2>
+    <form id="editForm">
+      <input type="hidden" id="editId" />
+      <input type="text" id="editFirstname" placeholder="First Name" required />
+      <input type="text" id="editLastname" placeholder="Last Name" required />
+      <input type="number" id="editAge" placeholder="Age" required />
+      <select id="editMarried">
+        <option value="true">Married</option>
+        <option value="false">Single</option>
+      </select>
+      <button type="submit">Update</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Search Employees</h2>
+    <input type="text" id="searchInput" placeholder="Search by First Name" />
+    <button id="searchBtn">Search</button>
+  </section>
+
+  <section>
+    <h2>Employee List</h2>
+    <ul id="employeeList"></ul>
+  </section>
+
+  <section>
+    <h2>Employee Info</h2>
+    <div id="employeeInfo"></div>
+  </section>
+
+  <script src="dist/app.js" type="module"></script>
+</body>
+</html>
